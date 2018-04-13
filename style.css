@@ -1,0 +1,76 @@
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    padding-top: 54px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.main-bg {
+    background-color: #091E2E;
+}
+
+.main {
+    min-height: 80vh;
+    padding: 3rem 0;
+    background: url(/worldmap.svg) no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.title {
+    font-size: 3.5rem;
+}
+
+.lead {
+    font-weight: normal;
+}
+
+.form-group {
+    margin: 3rem 0 1rem;
+}
+
+.url-form {
+    max-width: 650px;
+    width: 100%;
+}
+
+.btn-group-big {
+    padding-bottom: 1rem;
+}
+
+@media (max-width: 690px) {
+    .btn-group-small {
+        overflow: scroll;
+    }
+}
+
+.btn-group-small > button {
+    margin: 10px 5px;
+}
+
+.about1 {
+    background-color: white;
+}
+
+.about2 > .row {
+    margin: 0;
+}
+
+.about-item {
+    border: 1px solid white;
+    background-color: #f8f9fa;
+    padding: 3rem;
+}
+
+#footer {
+    padding: 3rem;
+    background-color: #f8f9fa;
+}
